@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+html {
+    font-size: 62.5%;
+}
+.title {
+    background-color: #006666;    
+    border-bottom: 8px solid gray;
+    display: flex;
+    min-height: 15vh;
+    align-items: center;
+    justify-content:space-between;
+}
+h1{
+    margin-left: 5%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    letter-spacing: 2px;    
+}
+.title .btregresar {
+    margin-top: 3.5rem;
+    margin-right: 3%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;    
+    letter-spacing: 1px; 
+    text-decoration: none;
+}
+.btregresar span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+main {
+    background-color: rgb(170, 170, 170);
+    height: 85vh;
+}
+.containerform {
+    min-width: 340px;
+    max-width: 600px ;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content:start;
+    align-items: center;
+    background-color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 10px;
+    height: 100%;
+}
+.containerform .inputtext {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    text-align:justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.containerform .inputtext .texto {
+    text-align: left;
+    border: 2px solid gray;
+    height: fit-content;
+    padding: 3px;
+}
+.containerform  span {
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    padding-right: 10px;
+}
+h2 {
+    font-size: 1.8rem;
+    color: #006666;
+    font-weight: 700;
+}
+.buton {
+    background-color: transparent;
+    border: 3px solid #006666;
+    border-radius: 7px;
+    font-size: 1.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #006666;
+    text-align: center; 
+    letter-spacing: 0.8px;   
+    margin-top: 30px;
+    width: 90px;
+    height: 40px;
+}
+.buton:hover {
+    background-color:#006666;
+    border: none;
+    color: white;
+}

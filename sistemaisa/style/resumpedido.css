@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+html {
+    font-size: 62.5%;
+}
+.title {
+    background-color: #006666;    
+    border-bottom: 8px solid gray;
+    display: flex;
+    min-height: 15vh;
+    align-items: center;
+    justify-content:space-between;
+}
+h1{
+    margin-left: 5%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    letter-spacing: 2px;    
+}
+.title .btregresar {
+    margin-top: 3.5rem;
+    margin-right: 3%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;    
+    letter-spacing: 1px; 
+    text-decoration: none;
+}
+.btregresar span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+main {
+    background-color: rgb(170, 170, 170);
+}
+.containerform {
+    min-width: 340px;
+    max-width: 600px ;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 10px;
+}
+.containerform .inputtext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.containerform  span {
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    padding-right: 10px;
+}
+.containerform .texto {
+    border: 2px solid gray;
+    height: 25px;
+    width: 75%;
+    font-weight: lighter;
+    font-size: 1.4rem;
+    padding: 2px;
+}
+.containerform .textofix1{ 
+    border: 2px solid gray;
+    height: 25px;
+    width: 55%;
+    height: fit-content;
+    padding: 5px;
+    font-weight: lighter;
+
+}
+.inputtxtarea {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.txtarea {
+    border: 2px solid gray;
+    width: 75%;
+    padding: 3px;
+}
+h2 {
+    font-size: 1.8rem;
+    color: #006666;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+h4 {
+    font-size: 1.5rem;
+    color: black;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    text-align: left;
+    background-color: rgb(172, 170, 170);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+.print {
+    background-color: transparent;
+    border: 3px solid #006666;
+    border-radius: 7px;
+    font-size: 1.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #006666;
+    text-align: center; 
+    letter-spacing: 0.8px;   
+    margin-top: 30px;
+    width: 90px;
+    height: 40px;
+}
+.print:hover {
+    background-color:#006666;
+    border: none;
+    color: white;
+}
+.tablelist {
+    margin: 3%;
+    border: 2px solid gray;
+    border-collapse: collapse;
+    width: 94%;
+}
+tr {
+    font-size: 1.2rem;
+    border-bottom: 2px solid gray;
+}
+th {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-right: 1px solid gray;
+}
+td {
+    padding: 0.5rem;
+    border-right: 1px solid gray;
+}
+.butoneliminar {
+    background-color: transparent;
+    border: 3px solid #00a0a0;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-family:Arial, Helvetica, sans-serif;      
+    letter-spacing: 1px;
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+    padding: 3px;
+    color: #006666;
+}
+.butoneliminar:hover {
+    background-color:#006666;
+    border: none;
+    color: white;
+}

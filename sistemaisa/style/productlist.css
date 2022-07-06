@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+html {
+    font-size: 62.5%;
+}
+.title {
+    background-color: #006666;    
+    border-bottom: 8px solid gray;
+    display: flex;
+    min-height: 15vh;
+    align-items: center;
+    justify-content:space-between;
+}
+h1{
+    margin-left: 5%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    letter-spacing: 2px;    
+}
+.title .btregresar {
+    margin-top: 3.5rem;
+    margin-right: 3%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;    
+    letter-spacing: 1px; 
+    text-decoration: none;
+}
+.btregresar span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+main {
+    background-color: rgb(170, 170, 170);
+}
+.containerproductlist {
+    min-width: 340px;
+    max-width: 600px ;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    background-color: white;
+    border-radius: 10px;
+    height: 100%;
+}
+h2 {
+    font-size: 1.8rem;
+    color: #006666;
+    font-weight: 700;
+}
+.tablelist {
+    margin: 3%;
+    border: 2px solid gray;
+    border-collapse: collapse;
+}
+tr {
+    font-size: 1.4rem;
+    border-bottom: 2px solid gray;
+}
+td {
+    padding: 7px;
+}
+.buton {
+    background-color: transparent;
+    border: 2px solid #00a0a0;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family:Arial, Helvetica, sans-serif; 
+    text-align: center;     
+    letter-spacing: 1px;
+    width: fit-content;
+    height: fit-content;
+    padding: 3px;
+    color: #006666;
+    text-decoration: none;
+}
+.buton:hover {
+    background-color:#006666;
+    border: none;
+    color: white;
+}
+.butoneliminar {
+    background-color: transparent;
+    border: 2px solid #00a0a0;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family:Arial, Helvetica, sans-serif; 
+    text-align: center;
+    text-decoration: none;     
+    letter-spacing: 1px;
+    width: fit-content;
+    height: fit-content;
+    padding: 3px;
+    color: #006666;
+}
+.butoneliminar:hover {
+    background-color:#006666;
+    border: none;
+    color: white;
+}
+.registrarnuevo {
+    background-color: transparent;
+    border: 3px solid #00a0a0;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-family:Arial, Helvetica, sans-serif;      
+    letter-spacing: 1px;
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+    padding: 3px;
+    color: #006666;
+}
+.registrarnuevo:hover {
+    background-color:#006666;
+    border: none;
+    color: white;
+}

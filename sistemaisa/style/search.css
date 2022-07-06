@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+html {
+    font-size: 62.5%;
+}
+.title {
+    background-color: #006666;    
+    border-bottom: 8px solid gray;
+    display: flex;
+    min-height: 15vh;
+    align-items: center;
+    justify-content:space-between;
+}
+h1{
+    margin-left: 5%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    letter-spacing: 2px;    
+}
+.title .btregresar {
+    margin-top: 3.5rem;
+    margin-right: 3%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;    
+    letter-spacing: 1px; 
+    text-decoration: none;
+}
+.btregresar span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+main {
+    background-color: rgb(170, 170, 170);
+    height: 85vh;
+}
+.containersearchform {
+    min-width: 340px;
+    max-width: 600px ;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: start;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    height: 100%;
+}
+h2 {
+    font-size: 1.8rem;
+    color: #006666;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.containersearchform .searchbox {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    justify-items: center;
+}
+.search {
+    border: 2px solid gray;
+    width: 70%;
+    height: 2.8rem;
+}
+.butonsearch {    
+    background-color: transparent;
+    border: 2px solid #00a0a0;
+    border-radius: 5px;
+    font-size:1.5rem;
+    font-family:Arial, Helvetica, sans-serif; 
+    text-align: center; 
+    letter-spacing: 1px; 
+    width: fit-content;
+    height: fit-content;
+    padding: 3px;
+    color: #006666;
+}
+.butonsearch:hover {
+    background-color:#006666;
+    border: none;
+    color: white;
+}
+.containersearchform .filtrobox {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    justify-items: center;
+    padding-top: 2.5rem;
+}
+.filtrotext {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-items: auto;
+    font-size: 1.4rem;
+    font-weight: 550;
+}
+.calendario {
+    border: 2px solid gray;
+    width: 30%;
+    height: 25px;
+    padding: 2px;
+    border-radius: 3px;
+}
+.butonfiltrar {
+    background-color: transparent;
+    border: 2px solid #00a0a0;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-family:Arial, Helvetica, sans-serif; 
+    text-align: center;     
+    letter-spacing: 1px;
+    width: fit-content;
+    height: fit-content;
+    padding: 3px;
+    color: #006666;
+}
+.butonfiltrar:hover {
+    background-color:#006666;
+    border: none;
+    color: white;
+}
+.textlist {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 550;
+    padding-bottom: 10px;
+}
+.tablelist {
+    margin: 3%;
+    border: 2px solid gray;
+    border-collapse: collapse;
+    width: 94%;
+}
+tr {
+    font-size: 1.4rem;
+    border-bottom: 2px solid gray;
+}
+td {
+    padding: 7px;
+}
+a {
+    font-size: 1.4rem;
+    font-family:Arial, Helvetica, sans-serif;    
+    font-weight: 600; 
+    color: #006666;
+    letter-spacing: 0.8px; 
+}
+.butonviewmore {
+    font-size: 1.4rem;
+    font-family:Arial, Helvetica, sans-serif;    
+    font-weight: 600; 
+    color: #006666;
+    letter-spacing: 0.8px;
+    margin-left: 75%;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+/*
+.butonreset {
+    background-color: transparent;
+    border: 2px solid rgba(0, 128, 128, 0.685);
+    border-radius: 5px;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;    
+    font-weight: lighter; 
+    text-align: center;     
+    letter-spacing: 1px;
+    margin-top: 30px;
+    width: 150px;
+    height: 35px;
+}
+.butonreset:hover {
+    background-color:rgba(0, 128, 128, 0.685);
+    border: none;
+    color: white;
+}
+*/
